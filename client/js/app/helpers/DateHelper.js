@@ -1,5 +1,9 @@
 class DateHelper {
 
+    constructor() {
+        throw new Error('DateHelper não pode ser instanciada!');
+    }
+
     static textoParaData(texto) {
         return new Date(texto.split('-'));
     }
