@@ -28,7 +28,7 @@ class NegociacoesView {
             <td>${n.volume}</td>
           </tr>
              `
-        ).join('')}
+        ).join('')} 
         </tbody>
 
         <tfoot>
